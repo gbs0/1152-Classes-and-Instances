@@ -14,17 +14,16 @@ class Bike
   end
 end
 
-caloi = Bike.new
 
-p caloi.wheels == 2
-p caloi.seats
+caloi = Bike.new # Criamos uma nova instância do tipo Bike
+p caloi.wheels == 2 # Comparamos se o valor das rodas é igual a 2
 
-triciclo = Bike.new
 
-triciclo.wheels = 3
+triciclo = Bike.new # Criamos uma nova instância do tipo Bike
+triciclo.wheels = 3 # Porém, reescrevemos o valor do atributo 'wheels'
 
-p triciclo.wheels == 3
+p triciclo.wheels == 3 # Comparamos se o valor das rodas é igual a 3
 
 puts  "-" *  36
-caloi.info
-triciclo.info
+caloi.info # Podemos chamar os métodos de instância dessa maneira, indicam o comportamento da instância
+triciclo.info # # Podemos chamar os métodos de instância dessa maneira, indicam o comportamento da instância
